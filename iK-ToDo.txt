@@ -1,0 +1,41 @@
+20220201
+-version04: nextjs / react / redux / sass @media
+
+========================== MISSION
+-to practice Redux / SASS
+	-using next.js / react / etc
+-simple increment side with three routes in total
+
+========================== LEFT OFF
+-bizzarly I cannot get the layout component to work. So I reset things again.
+	-I only added .prettierrc.json file & iK-toDo.txt file
+		-I suspect .prettierrc.json could be affecting someone too so bewary of that
+========================== DONE
+-deploy on Netlify straight away to see how it affects your side everytime you merge to master branch
+
+========================== TODO
+-create three pages
+	-increment page (/)
+	-side page	(/side)
+	-error page	(/*)
+
+-create layout to include header & footer
+
+-style using SASS
+	-install SASS
+	-implement SASS
+
+-Redux
+	-setup up redux directory
+		-including redux devtool
+	-two action types
+		-increment action
+		-decrement action
+
+
+========================== PLAYGROUND
+
+
+
+
+
