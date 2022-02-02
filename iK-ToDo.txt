@@ -7,13 +7,18 @@
 -simple increment side with three routes in total
 
 ========================== LEFT OFF
--bizzarly I cannot get the layout component to work. So I reset things again.
-	-I only added .prettierrc.json file & iK-toDo.txt file
-		-I suspect .prettierrc.json could be affecting someone too so bewary of that
+-redux
+	-just install redux from redux example because combineReducers() does not work with next.js at all.
+		- the redux example works fine & now I can add multiple reducers
+		-I would like to write some notes on nextjs word doc about this in best practice because nextjs goes through node first which is causing problem to this
+		-I would also need to install redux devtool as module just like the example
+	-note on nextjs word doc about window object does not work because nextjs goes through node first before browser
+		-list ways to use window object
+	-after you have finish you can then continue using redux for your increment logic
+	-started using chrome browser instead
 ========================== DONE
 -deploy on Netlify straight away to see how it affects your side everytime you merge to master branch
 
-========================== TODO
 -create three pages
 	-increment page (/)
 	-side page	(/side)
@@ -24,7 +29,11 @@
 -style using SASS
 	-install SASS
 	-implement SASS
+		-both / & /side & /404
 
+-create the three links in our header component
+
+========================== TODO
 -Redux
 	-setup up redux directory
 		-including redux devtool
@@ -33,8 +42,12 @@
 		-decrement action
 
 
-========================== PLAYGROUND
+========================== NOTES
+rm -fr node_modules/ package-lock.json .next/ && npm cache clean -vf && npm i && npm run dev
+	-will remove dir/files > clean npm cache > reinstall > run dev
+	-place on notes
 
+========================== PLAYGROUND
 
 
 

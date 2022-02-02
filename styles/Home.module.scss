@@ -1,0 +1,9 @@
+#homeid {
+    h1 {
+        color: darkblue;
+    }
+}
+
+@mixin iKmixin {
+    text-decoration: darkgreen underline solid;
+}

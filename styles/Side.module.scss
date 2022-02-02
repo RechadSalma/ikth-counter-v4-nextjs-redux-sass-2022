@@ -1,0 +1,8 @@
+.iKclass {
+    border: purple 6px dashed;
+
+    &:hover {
+        background-color: salmon;
+        font-size: 3rem;
+    }
+}
