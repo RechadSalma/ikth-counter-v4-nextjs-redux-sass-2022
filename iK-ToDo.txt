@@ -1,5 +1,5 @@
 20220201
--version04: nextjs / react / redux / sass @media
+-version04: nextjs / react / redux / redux devtool / sass
 
 ========================== MISSION
 -to practice Redux / SASS
@@ -7,15 +7,8 @@
 -simple increment side with three routes in total
 
 ========================== LEFT OFF
--redux
-	-just install redux from redux example because combineReducers() does not work with next.js at all.
-		- the redux example works fine & now I can add multiple reducers
-		-I would like to write some notes on nextjs word doc about this in best practice because nextjs goes through node first which is causing problem to this
-		-I would also need to install redux devtool as module just like the example
-	-note on nextjs word doc about window object does not work because nextjs goes through node first before browser
-		-list ways to use window object
-	-after you have finish you can then continue using redux for your increment logic
-	-started using chrome browser instead
+finished on 20220204
+
 ========================== DONE
 -deploy on Netlify straight away to see how it affects your side everytime you merge to master branch
 
@@ -33,22 +26,28 @@
 
 -create the three links in our header component
 
-========================== TODO
 -Redux
 	-setup up redux directory
 		-including redux devtool
+	-create button for counter
+		-increment / decrement / reset
 	-two action types
 		-increment action
 		-decrement action
+		-reset action
 
+-set trace on redux devtool
+
+-README.md
+
+========================== TODO
+
+========================== COMEBACK TO
 
 ========================== NOTES
-rm -fr node_modules/ package-lock.json .next/ && npm cache clean -vf && npm i && npm run dev
-	-will remove dir/files > clean npm cache > reinstall > run dev
-	-place on notes
+
 
 ========================== PLAYGROUND
-
 
 
 

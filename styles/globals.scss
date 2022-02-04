@@ -1,17 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+//for iKmixin to test
 @import "./Home.module.scss";
 
 $iKprimary: rgb(139, 243, 221);
 
 body {
-    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
-        "Arial", sans-serif;
-    padding: 20px 20px 60px;
-    max-width: 680px;
-    margin: 0 auto;
-    background-color: $iKprimary;
+  font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif, "Dancing Script";
+  padding: 20px 20px 60px;
+  max-width: 680px;
+  margin: 0 auto;
+  background-color: $iKprimary;
 
-    #homeid {
-        border: pink 3px solid;
-        @include iKmixin;
-    }
+  #homeid {
+    border: pink 3px solid;
+    @include iKmixin;
+  }
 }
